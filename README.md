@@ -1,11 +1,11 @@
-About r-paws.customer.engagement
-================================
+About r-paws.customer.engagement-feedstock
+==========================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-paws.customer.engagement-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/paws-r/paws
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-paws.customer.engagement-feedstock/blob/main/LICENSE.txt)
 
 Summary: Interface to 'Amazon Web Services' customer engagement services, including 'Simple Email Service', 'Connect' contact center service, and more <https://aws.amazon.com/>.
 
