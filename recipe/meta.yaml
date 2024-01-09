@@ -1,4 +1,4 @@
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/paws.customer.engagement_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/paws.customer.engagement/paws.customer.engagement_{{ version }}.tar.gz
-  sha256: 5b1228efeb062ba3ec797b4a37345974c030c561d66e2c416b66c45487f26e6a
+  sha256: b0485f8f37878c135751d1de01a79fd67fabc953d7fdb6dd09eaf1adb0e2008d
 
 build:
   merge_build_host: true  # [win]
