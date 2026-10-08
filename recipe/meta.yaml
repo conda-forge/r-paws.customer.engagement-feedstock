@@ -1,4 +1,4 @@
-{% set version = "0.10.0" %}
+{% set version = "0.11.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/paws.customer.engagement_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/paws.customer.engagement/paws.customer.engagement_{{ version }}.tar.gz
-  sha256: 8902ebb4ea06bb394c828ce43c713ba7410afd7fb466dca3deee7ff335e1778d
+  sha256: 1508683cf0f111490a677bfd8e8c48ac5cddd1d0ab73d7ead8fb49e3f0ece1a5
 
 build:
   number: 0
